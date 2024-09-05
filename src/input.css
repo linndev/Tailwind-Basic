@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.radial-blue{
-    background: radial-gradient(lightblue, skyblue)
+@layer utilities{
+    .section-min-height{
+        min-height: calc(100vh - 68px);
+    }
 }
